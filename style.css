@@ -71,3 +71,36 @@ nav ul {
   text-align: center;
   line-height: 1;
 }
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-section p {
+  color: #777;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+.bottom-section p a {
+  text-decoration: none;
+}
+
+.bottom-section p i {
+  color: rgb(190, 142, 53);
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.social-media {
+  display: flex;
+}
+.social-media i {
+  margin-left: 0.8rem;
+  font-size: 1.2rem;
+  color: #777;
+  transition: 0.3s;
+}
+.social-media i:hover {
+  color: #f3c892;
+}
