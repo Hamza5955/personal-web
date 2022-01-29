@@ -27,7 +27,8 @@ main {
   position: relative;
   background-color: #1d2927;
   width: 100%;
-  min-height: 100vh;
+  min-height: 750px;
+  height: 100vh;
   overflow: hidden;
   padding: 1.5rem 3rem;
   display: flex;
@@ -70,15 +71,20 @@ nav ul {
 .image-wrap {
   position: absolute;
   width: 85%;
-  max-width: 1000px;
+  max-height: 1000px;
   height: 250px;
   bottom: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(0%);
-  background-color: black;
+  background-size: 100%;
+  background-image: url("./img/hj1.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .big-name {
+  position: relative;
+  z-index: 1;
   color: #f3f0eb;
   font-size: 7.5rem;
   font-weight: 500;
@@ -117,4 +123,26 @@ nav ul {
 }
 .social-media i:hover {
   color: #f3c892;
+}
+
+.scroll {
+  position: absolute;
+  color: #f3c892;
+  font-weight: 300;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 100px;
+  height: 50px;
+}
+
+.line {
+  position: absolute;
+  width: 1px;
+  height: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  background-image: linear-gradient(
+    to top rgb(157, 167, 165) rgb(121, 124, 124)
+  );
 }
