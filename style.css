@@ -19,4 +19,14 @@ ul {
 
 main {
   background-color: #1d2927;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hj {
+  width: 100px;
 }
