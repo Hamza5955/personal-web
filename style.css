@@ -77,7 +77,7 @@ nav ul {
   left: 50%;
   transform: translateX(-50%) translateY(0%);
   background-size: 100%;
-  background-image: url("./img/hj1.jpg");
+  background-image: url("./img/hj4.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
@@ -142,7 +142,5 @@ nav ul {
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
-  background-image: linear-gradient(
-    to top rgb(157, 167, 165) rgb(121, 124, 124)
-  );
+  background-color: gray;
 }
