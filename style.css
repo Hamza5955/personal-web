@@ -72,10 +72,10 @@ nav ul {
   position: absolute;
   width: 85%;
   max-height: 1000px;
-  height: 250px;
+  height: 0px;
   bottom: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(0%);
+  transform: translateX(-50%) translateY(50%);
   background-size: 100%;
   background-image: url("./img/hj4.jpg");
   background-position: 50% 50%;
@@ -90,6 +90,7 @@ nav ul {
   font-weight: 500;
   text-align: center;
   line-height: 1;
+  transform: translateY(1000px);
 }
 .bottom-section {
   display: flex;
@@ -143,4 +144,8 @@ nav ul {
   transform: translateX(-50%);
   bottom: 0;
   background-color: gray;
+}
+
+.hide {
+  opacity: 0;
 }
